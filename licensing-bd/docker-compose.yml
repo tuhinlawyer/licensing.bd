@@ -1,0 +1,92 @@
+version: '3.8'
+
+services:
+  # Next.js Frontend
+  next_app:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: licensing-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_SUPABASE_URL=${SUPABASE_URL}
+      - NEXT_PUBLIC_SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - NEXT_PUBLIC_API_URL=http://express_api:3001
+    env_file:
+      - .env.local
+    depends_on:
+      - express_api
+    networks:
+      - licensing-network
+
+  # Express.js Backend
+  express_api:
+    build:
+      context: ./backend
+      dockerfile: ../Dockerfile.backend
+      target: base
+    container_name: licensing-backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_S3_BUCKET_NAME=${AWS_S3_BUCKET_NAME}
+      - AWS_REGION=${AWS_REGION}
+      - SENDGRID_API_KEY=${SENDGRID_API_KEY}
+      - FRONTEND_URL=http://localhost:3000
+    env_file:
+      - .env.local
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - licensing-network
+
+  # PostgreSQL (Local Development)
+  postgres:
+    image: postgres:15-alpine
+    container_name: licensing-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: licensing_dev
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - licensing-network
+
+  # Redis (Caching & Rate Limiting)
+  redis:
+    image: redis:7-alpine
+    container_name: licensing-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - licensing-network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  licensing-network:
+    driver: bridge

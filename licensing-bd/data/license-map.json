@@ -1,0 +1,880 @@
+{
+  "Restaurant": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-15000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "food-safety-license",
+      "name_en": "Food Safety License",
+      "name_bn": "খাদ্য নিরাপত্তা লাইসেন্স",
+      "authority": "Bangladesh Food Safety Authority (BFSA)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-30000"
+    },
+    {
+      "slug": "fire-safety-certificate",
+      "name_en": "Fire Safety Certificate",
+      "name_bn": "অগ্নি নিরাপত্তা সার্টিফিকেট",
+      "authority": "Fire Service & Civil Defence",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-20000"
+    },
+    {
+      "slug": "health-certificate",
+      "name_en": "Health Certificate",
+      "name_bn": "স্বাস্থ্য সনদ",
+      "authority": "City Corporation Health Department",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "2000-5000"
+    },
+    {
+      "slug": "music-license",
+      "name_en": "Music License",
+      "name_bn": "সঙ্গীত লাইসেন্স",
+      "authority": "City Corporation",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "3000-10000"
+    },
+    {
+      "slug": "signboard-license",
+      "name_en": "Signboard License",
+      "name_bn": "সাইনবোর্ড লাইসেন্স",
+      "authority": "City Corporation / RAJUK",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "2000-8000"
+    }
+  ],
+  "IT/Software Company": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-15000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "software-industry-license",
+      "name_en": "Software Industry License",
+      "name_bn": "সফটওয়্যার শিল্প লাইসেন্স",
+      "authority": "Bangladesh Software Industry Association",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "3000-10000"
+    },
+    {
+      "slug": "import-export-license",
+      "name_en": "Import Export License",
+      "name_bn": "আমদানি রপ্তানি লাইসেন্স",
+      "authority": "Office of Chief Controller of Import & Export",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-25000"
+    }
+  ],
+  "Import-Export Business": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-15000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "import-export-license",
+      "name_en": "Import Export License (IRC/ERC)",
+      "name_bn": "আমদানি রপ্তানি লাইসেন্স (আইআরসি/ইআরসি)",
+      "authority": "Office of Chief Controller of Import & Export",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "bank-account",
+      "name_en": "Bank Account (Foreign Currency)",
+      "name_bn": "ব্যাংক অ্যাকাউন্ট (বিদেশী মুদ্রা)",
+      "authority": "Authorized Dealer Bank",
+      "renewal_cycle": "Ongoing",
+      "estimated_fee_bdt": "Variable"
+    },
+    {
+      "slug": "membership-certificate",
+      "name_en": "Membership Certificate",
+      "name_bn": "সদস্যপদ সনদ",
+      "authority": "Relevant Chamber of Commerce",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-20000"
+    }
+  ],
+  "Garments/RMG Factory": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-30000"
+    },
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "bgmea-membership",
+      "name_en": "BGMEA Membership",
+      "name_bn": "বিজিএমইএ সদস্যপদ",
+      "authority": "Bangladesh Garment Manufacturers and Exporters Association",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "50000-200000"
+    },
+    {
+      "slug": "fire-safety-certificate",
+      "name_en": "Fire Safety Certificate",
+      "name_bn": "অগ্নি নিরাপত্তা সার্টিফিকেট",
+      "authority": "Fire Service & Civil Defence",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    },
+    {
+      "slug": "building-clearance",
+      "name_en": "Building Clearance Certificate",
+      "name_bn": "ভবন ছাড়পত্র",
+      "authority": "RAJUK / City Corporation",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "50000-500000"
+    },
+    {
+      "slug": "environmental-clearance",
+      "name_en": "Environmental Clearance",
+      "name_bn": "পরিবেশগত ছাড়পত্র",
+      "authority": "Department of Environment",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    },
+    {
+      "slug": "boiler-inspection",
+      "name_en": "Boiler Inspection Certificate",
+      "name_bn": "বয়লার পরিদর্শন সনদ",
+      "authority": "Chief Inspector of Boilers",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "import-export-license",
+      "name_en": "Import Export License",
+      "name_bn": "আমদানি রপ্তানি লাইসেন্স",
+      "authority": "Office of Chief Controller of Import & Export",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    }
+  ],
+  "Pharmaceutical Company": [
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "drug-manufacturing-license",
+      "name_en": "Drug Manufacturing License",
+      "name_bn": "ঔষধ উৎপাদন লাইসেন্স",
+      "authority": "Directorate General of Drug Administration (DGDA)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "100000-500000"
+    },
+    {
+      "slug": "gmp-certificate",
+      "name_en": "GMP Certificate",
+      "name_bn": "জিএমপি সার্টিফিকেট",
+      "authority": "Directorate General of Drug Administration (DGDA)",
+      "renewal_cycle": "Every 3 years",
+      "estimated_fee_bdt": "200000-1000000"
+    },
+    {
+      "slug": "environmental-clearance",
+      "name_en": "Environmental Clearance",
+      "name_bn": "পরিবেশগত ছাড়পত্র",
+      "authority": "Department of Environment",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "50000-200000"
+    },
+    {
+      "slug": "fire-safety-certificate",
+      "name_en": "Fire Safety Certificate",
+      "name_bn": "অগ্নি নিরাপত্তা সার্টিফিকেট",
+      "authority": "Fire Service & Civil Defence",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    },
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-30000"
+    }
+  ],
+  "Clinic/Hospital": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "clinic-license",
+      "name_en": "Clinic/Hospital License",
+      "name_bn": "ক্লিনিক/হাসপাতাল লাইসেন্স",
+      "authority": "Directorate General of Health Services (DGHS)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-200000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "fire-safety-certificate",
+      "name_en": "Fire Safety Certificate",
+      "name_bn": "অগ্নি নিরাপত্তা সার্টিফিকেট",
+      "authority": "Fire Service & Civil Defence",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "waste-management-license",
+      "name_en": "Medical Waste Management License",
+      "name_bn": "চিকিৎসা বর্জ্য ব্যবস্থাপনা লাইসেন্স",
+      "authority": "Department of Environment",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "drug-license",
+      "name_en": "Drug License (Pharmacy)",
+      "name_bn": "ঔষধ লাইসেন্স (ফার্মেসি)",
+      "authority": "Directorate General of Drug Administration (DGDA)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-20000"
+    }
+  ],
+  "Hotel": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "hotel-license",
+      "name_en": "Hotel License",
+      "name_bn": "হোটেল লাইসেন্স",
+      "authority": "Police Commissioner's Office",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "fire-safety-certificate",
+      "name_en": "Fire Safety Certificate",
+      "name_bn": "অগ্নি নিরাপত্তা সার্টিফিকেট",
+      "authority": "Fire Service & Civil Defence",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    },
+    {
+      "slug": "food-safety-license",
+      "name_en": "Food Safety License",
+      "name_bn": "খাদ্য নিরাপত্তা লাইসেন্স",
+      "authority": "Bangladesh Food Safety Authority (BFSA)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "music-license",
+      "name_en": "Music License",
+      "name_bn": "সঙ্গীত লাইসেন্স",
+      "authority": "City Corporation",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-20000"
+    },
+    {
+      "slug": "liquor-license",
+      "name_en": "Liquor License",
+      "name_bn": "মদ্যপান লাইসেন্স",
+      "authority": "Deputy Commissioner's Office",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "100000-500000"
+    }
+  ],
+  "Travel Agency": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-20000"
+    },
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "travel-agency-license",
+      "name_en": "Travel Agency License",
+      "name_bn": "ট্রাভেল এজেন্সি লাইসেন্স",
+      "authority": "Civil Aviation Authority of Bangladesh (CAAB)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "50000-200000"
+    },
+    {
+      "slug": "iata-accreditation",
+      "name_en": "IATA Accreditation",
+      "name_bn": "আইএটিএ এক্রেডিটেশন",
+      "authority": "International Air Transport Association (IATA)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "200000-500000"
+    }
+  ],
+  "Real Estate Company": [
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "reja-registration",
+      "name_en": "REJA Registration",
+      "name_bn": "রিয়ালা নিবন্ধন",
+      "authority": "Real Estate & Housing Association of Bangladesh",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    },
+    {
+      "slug": "rajuk-approval",
+      "name_en": "RAJUK Approval",
+      "name_bn": "রাজউক অনুমোদন",
+      "authority": "RAJUK",
+      "renewal_cycle": "Project-based",
+      "estimated_fee_bdt": "Variable"
+    }
+  ],
+  "Manufacturing Factory": [
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "industrial-license",
+      "name_en": "Industrial License",
+      "name_bn": "শিল্প লাইসেন্স",
+      "authority": "Bangladesh Small and Cottage Industries Corporation (BSCIC)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-100000"
+    },
+    {
+      "slug": "environmental-clearance",
+      "name_en": "Environmental Clearance",
+      "name_bn": "পরিবেশগত ছাড়পত্র",
+      "authority": "Department of Environment",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-200000"
+    },
+    {
+      "slug": "fire-safety-certificate",
+      "name_en": "Fire Safety Certificate",
+      "name_bn": "অগ্নি নিরাপত্তা সার্টিফিকেট",
+      "authority": "Fire Service & Civil Defence",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    },
+    {
+      "slug": "boiler-inspection",
+      "name_en": "Boiler Inspection Certificate",
+      "name_bn": "বয়লার পরিদর্শন সনদ",
+      "authority": "Chief Inspector of Boilers",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    }
+  ],
+  "Agro Business": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-20000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "agro-input-license",
+      "name_en": "Agro Input License",
+      "name_bn": "কৃষি উপকরণ লাইসেন্স",
+      "authority": "Department of Agricultural Extension",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "5000-30000"
+    },
+    {
+      "slug": "seed-license",
+      "name_en": "Seed License",
+      "name_bn": "বীজ লাইসেন্স",
+      "authority": "Bangladesh Agricultural Development Corporation (BADC)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "pesticide-license",
+      "name_en": "Pesticide License",
+      "name_bn": "কীটনাশক লাইসেন্স",
+      "authority": "Plant Protection Wing",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    }
+  ],
+  "Fish Export Business": [
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "fish-export-license",
+      "name_en": "Fish Export License",
+      "name_bn": "মাছ রপ্তানি লাইসেন্স",
+      "authority": "Department of Fisheries",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "50000-200000"
+    },
+    {
+      "slug": "haccp-certificate",
+      "name_en": "HACCP Certificate",
+      "name_bn": "এইচএসিসিপি সার্টিফিকেট",
+      "authority": "Bangladesh Fish Inspection and Quality Control",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "100000-500000"
+    },
+    {
+      "slug": "eu-approval",
+      "name_en": "EU Approval",
+      "name_bn": "ইইউ অনুমোদন",
+      "authority": "European Commission",
+      "renewal_cycle": "Periodic inspection",
+      "estimated_fee_bdt": "Variable"
+    },
+    {
+      "slug": "import-export-license",
+      "name_en": "Import Export License",
+      "name_bn": "আমদানি রপ্তানি লাইসেন্স",
+      "authority": "Office of Chief Controller of Import & Export",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-100000"
+    }
+  ],
+  "Retail Shop": [
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "3000-15000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "fire-safety-certificate",
+      "name_en": "Fire Safety Certificate",
+      "name_bn": "অগ্নি নিরাপত্তা সার্টিফিকেট",
+      "authority": "Fire Service & Civil Defence",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "2000-10000"
+    },
+    {
+      "slug": "signboard-license",
+      "name_en": "Signboard License",
+      "name_bn": "সাইনবোর্ড লাইসেন্স",
+      "authority": "City Corporation",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "1000-5000"
+    }
+  ],
+  "Construction Company": [
+    {
+      "slug": "company-registration",
+      "name_en": "Company Registration (RJSC)",
+      "name_bn": "কোম্পানি নিবন্ধন (আরজেএসসি)",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "5000-50000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "trade-license",
+      "name_en": "Trade License",
+      "name_bn": "ট্রেড লাইসেন্স",
+      "authority": "City Corporation / Municipality",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "10000-50000"
+    },
+    {
+      "slug": "contractor-license",
+      "name_en": "Contractor License",
+      "name_bn": "কন্ট্রাক্টর লাইসেন্স",
+      "authority": "Public Works Department (PWD)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "20000-200000"
+    },
+    {
+      "slug": "environmental-clearance",
+      "name_en": "Environmental Clearance",
+      "name_bn": "পরিবেশগত ছাড়পত্র",
+      "authority": "Department of Environment",
+      "renewal_cycle": "Project-based",
+      "estimated_fee_bdt": "50000-500000"
+    },
+    {
+      "slug": "building-permit",
+      "name_en": "Building Permit",
+      "name_bn": "ভবন অনুমোদন",
+      "authority": "RAJUK / City Corporation",
+      "renewal_cycle": "Project-based",
+      "estimated_fee_bdt": "Variable"
+    }
+  ],
+  "NGO": [
+    {
+      "slug": "ngo-registration",
+      "name_en": "NGO Registration",
+      "name_bn": "এনজিও নিবন্ধন",
+      "authority": "NGO Affairs Bureau",
+      "renewal_cycle": "Annual renewal of clearance",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "society-registration",
+      "name_en": "Society Registration",
+      "name_bn": "সোসাইটি নিবন্ধন",
+      "authority": "Registrar of Joint Stock Companies (RJSC)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "2000-10000"
+    },
+    {
+      "slug": "tin-certificate",
+      "name_en": "TIN Certificate",
+      "name_bn": "টিন সার্টিফিকেট",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "vat-registration",
+      "name_en": "VAT Registration",
+      "name_bn": "ভ্যাট নিবন্ধন",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "One-time",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "foreign-donation-clearance",
+      "name_en": "Foreign Donation Clearance",
+      "name_bn": "বিদেশী অনুদান ছাড়পত্র",
+      "authority": "NGO Affairs Bureau",
+      "renewal_cycle": "Project-based",
+      "estimated_fee_bdt": "0"
+    },
+    {
+      "slug": "tax-exemption-certificate",
+      "name_en": "Tax Exemption Certificate",
+      "name_bn": "কর অব্যাহতি সনদ",
+      "authority": "National Board of Revenue (NBR)",
+      "renewal_cycle": "Annual",
+      "estimated_fee_bdt": "0"
+    }
+  ]
+}
