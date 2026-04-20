@@ -1,0 +1,30 @@
+# Backend Dockerfile for licensing.bd
+FROM node:20-alpine AS base
+WORKDIR /app
+
+# Install dependencies
+COPY package*.json ./
+RUN npm ci --only=production
+
+# Production server image
+FROM node:20-alpine AS server
+WORKDIR /app
+COPY --from=base /app/node_modules ./node_modules
+COPY dist ./dist
+COPY .env.example .env
+
+EXPOSE 3001
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD wget --no-verbose --tries=1 --spider http://localhost:3001/health || exit 1
+
+CMD ["node", "dist/server.js"]
+
+# Cron worker image
+FROM node:20-alpine AS cron
+WORKDIR /app
+COPY --from=base /app/node_modules ./node_modules
+COPY dist ./dist
+COPY .env.example .env
+
+CMD ["node", "dist/jobs/reminderEngine.js"]
